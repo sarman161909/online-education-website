@@ -1,0 +1,77 @@
+/* font-awesome-link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+/* common-stylea */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* nav-part-styles */
+.img{
+    width: 75px;
+    height: 75px;
+}
+ul .nav-item{
+    transition: .3s;
+}
+ul .nav-link{
+    color: #000;
+    
+}
+ul .nav-link:hover{
+    background-color: #18dcff;
+    color: #ffff;
+    border-radius: 3px; 
+}
+.button{
+    border: 2px solid #18dcff;
+    transition: .3s;
+}
+.button:hover{
+    color: #ffff;
+    background: #18dcff;
+}
+/* banner-part-styles */
+.banner-slider{
+    position: relative;
+}
+.banner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.banner-part .img{
+    width: 100%;
+   height: 100%;
+}
+.banner-part img{
+    width: 100%;
+   height: 100%;
+}
+/* courses-part-styles */
+#course-part img{
+    width: 100%;
+    height: 100%;
+}
+#course-part .card-text{
+    font-size: 14px;
+}
+/* FAQ-styles-part */
+.accordion-button:not(.collapsed){
+    background-color: #ffffff;
+    box-shadow: 0;
+}
+/* footer-styles */
+.icon{
+    color: #ffffff;
+    transition: .5s;
+    font-size: 20px;
+}
+.icon:hover{
+    color: #18dcff;
+}
